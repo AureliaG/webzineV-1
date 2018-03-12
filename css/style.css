@@ -1,0 +1,205 @@
+#background {
+	background-color:#DAEEFF;
+} 
+.font_Kreon{
+	font-family: 'Kreon', serif;
+	font-size: 1.3em;
+}
+
+
+/*CSS header */
+/*titre webzine*/
+.title{
+	font-family: 'Amatic SC', cursive;
+	font-size: 4rem ;
+}
+#title_wzine {
+	display: flex;
+    justify-content: center;
+    font-size: 6em;
+}
+#user{
+	font-size:1.5em;
+}
+/*connexion et inscription*/
+.top {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*social media*/
+#sm {
+	display: flex;
+	justify-content: flex-end;
+}	
+.sm {
+	margin: 5px;
+}
+#logoinsta {
+	width: 90%;
+}
+
+#logofb{
+	width: 80%;
+}
+#category {
+	display: flex;
+	justify-content: space-around;
+	font-size: 1.5em;		
+}
+.category {
+	margin: 10px;
+}
+
+#lol {
+	color: #6EDD97;
+}
+#vie{
+	color: #FF00AA;
+}
+#corps{
+	color: #4E98FF;
+}
+#amour {
+	color: #FBCA2C;
+}
+#actualite{
+	color: #C300E7;
+}
+#toi{
+	color: #FF4347;
+}
+
+/*CSS marge_g*/
+#wrap_marge_g{
+	background-color: #F6F700;
+	text-align: center;
+}
+#list_autors {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}	
+.autor {
+	border: 1px solid black;
+	border-radius:5px;
+	width: 80px;
+	height: 80px;
+	margin: 7px;
+	font-size: 12px;
+}
+.user_m {
+	display: flex;
+	justify-content: center;
+}
+#sm_marge_g {
+	display: flex;
+	justify-content: center;
+	margin: 30px;
+}
+#title_m {
+	font-size: 1.5rem ;
+ 	margin:20px;
+ 	margin-bottom: 50px;
+}
+.s_title{
+	margin-bottom: 50px;
+	font-size: 1.3rem ;
+}
+
+ /*Main articles*/
+ .lien_main_article{
+ 	text-align: center;
+ }
+ .lien_main_article:hover {
+ 	text-decoration: none;
+ }
+ .title_main_article {
+ 	font-size: 25px;
+ 	margin-bottom: -8px;
+ 	margin-top: -5px;
+ }
+
+ #list_main_articles{
+ 	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+ }
+ .image_main_article {
+ 	width: 305px;
+ 	border-radius:5px;
+ 	margin: 15px;
+ }
+/*articles medium*/
+.medium {
+	display: flex
+	justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.lien_medium_article{
+ 	text-align: center;
+ }
+ .lien_medium_article:hover {
+ 	text-decoration: none;
+ }
+ .title_medium_article {
+ 	font-size: 25px;
+ 	margin-bottom: -8px;
+ 	margin-top: -5px;
+ }
+
+ #list_medium_articles{
+ 	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+ }
+ .image_medium_article {
+ 	width: 205px;
+ 	border-radius:5px;
+ 	margin: 15px;
+ }
+/*articles*/
+.article {
+	text-align: center;
+}
+/* lol*/
+.art_lol {
+	color: #6EDD97;
+}
+
+/*c'est la vie*/
+.art_vie{
+	color: #FF00AA;
+}
+
+/*ton corps*/
+.art_corps{
+	color: #4E98FF;
+}
+
+/*ton corps*/
+.art_amour {
+	color: #FBCA2C;
+}
+
+/*actualité*/
+.art_actualite{
+	color: #C300E7;
+}
+
+/*et toi?*/
+.art_toi{
+	color: #FF4347;
+}
+
+

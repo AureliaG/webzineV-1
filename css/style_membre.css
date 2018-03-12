@@ -1,0 +1,35 @@
+#background{
+	background-color:#e3defc;
+}
+#title {
+	display: flex;
+    justify-content: center;
+}
+
+#background_owl {
+	height: 85vh;
+	margin-top: 80px;
+	
+	background-image: url("http://localhost/webzine_de_lamour/pictures/site/tree_owl.jpg");
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size: 30%;
+}
+#lien_article {
+	font-size: 2em;
+	text-decoration: none;
+	display: flex;
+}
+#lien_forum {
+	font-size: 2em;
+	text-decoration: none;
+	display: flex;
+}
+#lien_site {
+	font-size: 2em;
+	text-decoration: none;
+	display: flex;
+	align-items:flex-end;
+	margin-left: -45px;
+
+}
