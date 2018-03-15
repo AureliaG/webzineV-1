@@ -2,8 +2,11 @@
 require 'connection_bdd/connection_bdd.php';
 
 function getNewsCount() {
-	// SELECT count(*) FROM orders -> PDOStatement::fetchColumn
-	return 13;
+	$sql = 'SELECT * FROM articles_page_daccueil';
+	$sth = connectionDb($sql);
+	$sth->execute();
+	$count = $sth->rowCount();
+	return $count;
 }
 
 require 'model/model_article_site.php';

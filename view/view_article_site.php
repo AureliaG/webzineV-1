@@ -48,7 +48,8 @@
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
 
 	<!--nbre d'entrée disponible dans le tableau odre_article-->
-	<script>let news_count = <?php echo $news_count; ?></script>
+	<script>let news_count = <?php echo $news_count; ?>;</script>
+	
 	<!--drag-n-drop list-->
 	<script src="js/main.js"></script>
 
