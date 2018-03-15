@@ -8,7 +8,7 @@
 			(un peu comme du nutella mais sans huile de palme)</p>
 			<h1 class="title">LES AUTEUR.ES</h1>
 			<ul id="list_autors">
-					<li class="autor font_Kreon">auteur.e</li>
+					<li class="autor font_Kreon"> auteur.e</li>
 					<li class="autor font_Kreon ">auteur.e</li>
 					<li class="autor font_Kreon ">auteur.e</li>
 					<li class="autor font_Kreon ">auteur.e</li>
