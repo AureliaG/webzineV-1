@@ -11,7 +11,7 @@
   <h3 align="center">Bienvenue!! Connecte toi</h3><br> 
   <div style="display:flex; justify-content:center">
     <p style="margin: 10px">Oups, tu t'es perdu.e?</p>
-    <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+    <a href="index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
   </div>
 
 <!--Connection-->
