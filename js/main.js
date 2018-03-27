@@ -16,5 +16,16 @@ jQuery("button").click(function(){
 		id_articles.push(get_id);	
 	}
 	console.log(id_articles);
-	console.log(JSON.stringify(id_articles));	
-});
+	//convertie mon taleau js en tableau json
+	console.log(JSON.stringify(id_articles));
+
+	jQuery.ajax({
+	    type: "POST",
+	    url: "./articles_site.php",
+	    data: { id_articles: id_articles,
+	            },      
+	    alert(this.data);
+	      
+	    });	
+}); 
+ 

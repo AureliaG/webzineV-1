@@ -28,7 +28,7 @@ function getNewsCount() {
 	else{
 		return "Erreur: execute renvoie faux";
 	}	
-}
+}  
 
 
 

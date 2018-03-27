@@ -33,8 +33,8 @@
 		<?php
  		while($article = $articles->fetch()) {
  		?>
- 		<li class="m-4 border get_id">
- 			<h3 
+ 		<li class="m-4 border">
+ 			<h3 class="get_id"
  			id="<?= $article['id'] ?>" >
  			<?= $article['titre'] ?></h3>
  			<?php 
@@ -50,9 +50,9 @@
 	</div>
 	
 	<script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.js'></script>
 
