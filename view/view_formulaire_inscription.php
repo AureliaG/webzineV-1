@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Webzine</title>
+    <title>Inscription Webzine</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
@@ -12,7 +12,7 @@
     <h3 align="center">Salut! Inscris toi pour participer à la vie du site</h3><br>
     <div style="display:flex; justify-content:center">
       <p style="margin: 10px">Oups, tu t'es perdu.e?</p>
-      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+      <a href="index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
     </div>
 
   <!--Formulaire inscription-->
@@ -48,7 +48,7 @@
 
         <div class="form-group">
           <button class="btn btn-dark" type="submit" name="submit">Go!</button>
-          <a href="./connection.php" role="button" class="btn btn-outline-secondary">Déjà inscrit? Clic ici!</a>
+          <a href="connection_membre.php" role="button" class="btn btn-outline-secondary">Déjà inscrit? Clic ici!</a>
         </div>
       </form>
 

@@ -8,15 +8,30 @@ function addArticle() {
     $auteur = htmlspecialchars($_POST['auteur']);
     $rubrique = htmlspecialchars($_POST['rubrique']);
     $article = htmlspecialchars($_POST['article']);
-    $date_article = date($_POST['date_article']);
+    $nom_photo = htmlspecialchars($_POST['nom_photo']);
 
-    if (isset($titre, $chapo ,$auteur ,$rubrique ,$article, $date_article )) {
+    $path_photo = './pictures/p_articles/'.(htmlspecialchars($_POST['path_photo']));
 
-      $sql = 'INSERT INTO articles (titre,chapo, auteur, rubrique, article, date_article) VALUES (?, ?, ?, ?, ?,?)';
+    if (isset($titre, $chapo ,$auteur ,$rubrique ,$article, $nom_photo, $path_photo)) {
+//insert article
+      $sql = 'INSERT INTO articles (titre,chapo, auteur, rubrique, article ) VALUES (?, ?, ?, ?, ?)';
       $statement = connectionDb($sql);
-      $statement->execute(array($titre, $chapo, $auteur, $rubrique, $article, $date_article));
+      $statement->execute(array($titre, $chapo, $auteur, $rubrique, $article));
+
+//Récupérer l'id
+      $sql = 'SELECT * FROM articles ORDER BY date_article DESC LIMIT 1';
+      $statement = connectionDb($sql);
+      $statement->execute();
+      $article = $statement->fetch();
+
+
+//insert photo
+      $sql = 'INSERT INTO photo_articles (articles_id, nom_photo, path_photo) VALUES (?, ?, ?)';
+      $statement = connectionDb($sql);
+      $statement->execute(array($article['id'], $nom_photo, $path_photo));
+
       $formMessage = "<h6 align =\"center\" style=\"color: green\">L'article a bien été envoyer dans la base de donné</h6>";
       header('location: ./page_admin.php?message=' . $formMessage);
-    }
+    } 
   }
 }

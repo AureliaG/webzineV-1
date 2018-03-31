@@ -22,7 +22,7 @@
     </div>
   </header>
   <body>
-    <!--Formulaire inscription-->
+    <!--Formulaire articles-->
     <section class="add-form container-fluid row">
       <div class="col-md-4"></div>
 
@@ -43,11 +43,6 @@
           <input class="form-control" type="text" name="auteur" id="auteur">
         </div>
 
-       <div class="form-group">
-          <label for="date">Date</label>
-          <input class="form-control" type="date" name="date_article" id="date_article">
-        </div>
-
         <div class="form-group">
           <label for="rubrique">Rubrique</label>
           <input class="form-control" type="text" name="rubrique" id="rubrique">
@@ -55,8 +50,18 @@
 
         <div class="form-group">
           <label for="article">Article</label>
-          <textarea rows="30" cols="50" name="article" id="article">
+          <textarea rows="20" cols="60" name="article" id="article">
           </textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="nom_photo">Nom de la photo de l'article</label>
+          <input class="form-control" type="text" name="nom_photo" id="nom_photo"">
+        </div>
+
+        <div class="form-group">
+          <label for="path_photo">Photos</label>
+          <input class="form-control" type="text" name="path_photo" id="path_photo">
         </div>
 
         <div class="form-group">
