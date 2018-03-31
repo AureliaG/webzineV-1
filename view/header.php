@@ -21,4 +21,4 @@
 			<a id="toi" class="category font_Kreon" href="">Et toi?</a>
 		</div>
 		<hr>
-<!-- fin header col-md-8 dans index.php-->		
+<!-- fin header col-md-8 dans index.php-->	

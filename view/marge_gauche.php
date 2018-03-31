@@ -42,4 +42,4 @@
 			</div>
 
 		</div> <!-- fin marge de gauche col-md-3-->	
-<!-- fin row marge_gauche index.php-->		
+<!-- fin row marge_gauche index.php-->

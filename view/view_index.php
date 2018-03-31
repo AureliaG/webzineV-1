@@ -25,11 +25,6 @@
 		<?php
 		require 'main_articles.php';
 		?>
-
-		<!-- articles (2*3 / 3)-->
-		<?php
-		require 'articles_medium.php';
-		?>
 			
 		</div> <!-- fin header col-md-8-->
 		
