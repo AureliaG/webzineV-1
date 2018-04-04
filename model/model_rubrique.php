@@ -1,11 +1,10 @@
-<?php
-
-function order_article(){
-	$sql="SELECT * FROM articles JOIN articles_page_daccueil 
-	ON articles.id = articles_page_daccueil.id_article ORDER BY articles_page_daccueil.id";
-	$articles_orderby = connectionDb($sql);
-	$articles_orderby->execute();	 
-	return $articles_orderby;		
+<?php 
+ function get_articles_rubrique($rubrique){
+	$sql="SELECT * FROM articles WHERE rubrique = ?";
+	$articles = connectionDb($sql);
+	$articles->execute(array($rubrique));
+	$coco = $articles->fetchAll();	 
+	return $coco;
 }
 
 //récupère les photo par article sur la base de données

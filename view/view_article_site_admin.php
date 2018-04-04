@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html>
 	<head>
 		<title>Espace membre </title>
@@ -30,19 +30,18 @@
 	<div class="col-md-3"></div>
 	<div class="col-md-6">
 		<ul align="center" id="drag-elements" style="list-style-type: none;">	
-		<?php
- 		while($article = $articles->fetch()) {
- 		?>
- 		<li class="m-4 border">
- 			<h3 class="get_id"
- 			id="<?= $article['id'] ?>" >
- 			<?= $article['titre'] ?></h3>
- 			<?php 
- 			$photo = callPhoto($article['id']);
- 			?>
- 			<img src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
- 		</li>
-		<?php } ?>
+			<?php
+	 		while($article = $articles->fetch()) {
+	 		?>
+	 		<li class="m-4 border">
+	 			<h3 id="<?= $article['id'] ?>" >
+	 			<?= $article['titre'] ?></h3>
+	 			<?php 
+	 			$photo = callPhoto($article['id']);
+	 			?>
+	 			<img src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
+	 		</li>
+			<?php } ?>
 		</ul>
 		<button id="generer_dom">clic clic!</button>
 	</div>

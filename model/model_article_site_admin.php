@@ -1,6 +1,6 @@
-<?php
+<?php 
 //récupère les articles sur la base de données
-function callArticle() {
+ function callArticle() {
 	$sql = "SELECT * FROM articles ORDER BY id DESC " ;
 	$articles = connectionDb($sql);
 	$articles->execute();
