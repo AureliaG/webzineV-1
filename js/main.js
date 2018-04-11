@@ -15,17 +15,19 @@ jQuery("button").click(function(){
 		var get_id = elements[i].getAttribute('id');
 		id_articles.push(get_id);	
 	}
-	console.log(id_articles);
-	//convertie mon taleau js en tableau json
-	console.log(JSON.stringify(id_articles));
 
-	jQuery.ajax({
-	    type: "POST",
-	    url: "./articles_site.php",
-	    data: { id_articles: id_articles,
-	            },      
-	    alert(this.data);
-	      
-	    });	
+	//convertie mon taleau js en tableau json
+	let json_data = JSON.stringify(id_articles);
+
+	//envoie id_articles sur article_site_admin.php 
+	xmlhttp = new XMLHttpRequest;
+	xmlhttp.onreadystatechange = function() {
+	    if (this.readyState == 4 && this.status == 200) {
+	       console.log(this.responseText);
+	    }
+	};
+	xmlhttp.open( "POST", "http://localhost/webzine_de_lamour/admin/article_site_json.php", true);
+	xmlhttp.setRequestHeader( "Content-Type", "application/json" );
+	xmlhttp.send(json_data);
 }); 
  

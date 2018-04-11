@@ -9,8 +9,10 @@
 		<link rel="stylesheet" href="./css/style.css">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Kreon" rel="stylesheet">
-		
+		<!-- jQuery library -->
+  		<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 	</head>
+
 		<!-- marge de gauche-->	
 		<?php
 		require 'marge_gauche.php';
@@ -21,14 +23,8 @@
 		require 'header.php';
 		?>
 
-		<!-- articles (2*2)-->
 		<?php
 		require 'main_articles.php';
-		?>
-
-		<!-- articles (2*3 / 3)-->
-		<?php
-		require 'articles_medium.php';
 		?>
 			
 		</div> <!-- fin header col-md-8-->

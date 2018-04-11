@@ -17,8 +17,8 @@
 	  <div class="col-md-4"></div>
 	  <div class="col-md-4">
 	  	 <ul style="list-style-type: none;">
-		  	<li><a href="../espace_membre.php">clic ici pour retourner dans l'espace membre</a></li>
-		  	<li><a href="../index.php">clic là pour revenir sur le site</a></li>
+		  	<li><a href="espace_membre.php">clic ici pour retourner dans l'espace membre</a></li>
+		  	<li><a href="index.php">clic là pour revenir sur le site</a></li>
 		  </ul>
 	  </div>
 	  <div class="col-md-4"></div>

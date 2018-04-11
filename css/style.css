@@ -4,6 +4,7 @@
 .font_Kreon{
 	font-family: 'Kreon', serif;
 	font-size: 1.3em;
+	color: #756d6d;
 }
 
 
@@ -114,23 +115,7 @@
  .lien_main_article:hover {
  	text-decoration: none;
  }
- .title_main_article {
- 	font-size: 25px;
- 	margin-bottom: -8px;
- 	margin-top: -5px;
- }
 
- #list_main_articles{
- 	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
- }
- .image_main_article {
- 	width: 305px;
- 	border-radius:5px;
- 	margin: 15px;
- }
 /*articles medium*/
 .medium {
 	display: flex
@@ -143,31 +128,6 @@
 }
 
 
-.lien_medium_article{
- 	text-align: center;
- }
- .lien_medium_article:hover {
- 	text-decoration: none;
- }
- .title_medium_article {
- 	font-size: 25px;
- 	margin-bottom: -8px;
- 	margin-top: -5px;
- }
-
- #list_medium_articles{
- 	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	
- }
- .image_medium_article {
- 	width: 205px;
- 	border-radius:5px;
- 	margin: 15px;
- }
 /*articles*/
 .article {
 	text-align: center;
