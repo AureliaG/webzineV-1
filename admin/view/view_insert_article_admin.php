@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html> 
   <head>
     <title>Formulaire administrateur</title>
     <meta charset="utf-8" />
@@ -12,16 +12,17 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script> 
   </head>
+  
+  <body>
   <header>
     <h3 align="center">Ajout d'articles dans la base de donnée</h3><br>
     <div style="display:flex; justify-content:center">
       <a href="page_admin.php" role="button" class="btn btn-outline-secondary">retouner sur la page administrateur</a>
     </div>
     <div style="display:flex; justify-content:center">
-      <a href="./index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
     </div>
   </header>
-  <body>
     <!--Formulaire articles-->
     <section class="add-form container-fluid row">
       <div class="col-md-4"></div>

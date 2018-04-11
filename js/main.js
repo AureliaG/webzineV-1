@@ -26,7 +26,7 @@ jQuery("button").click(function(){
 	       console.log(this.responseText);
 	    }
 	};
-	xmlhttp.open( "POST", "http://localhost/webzine_de_lamour/article_site_json.php", true);
+	xmlhttp.open( "POST", "http://localhost/webzine_de_lamour/admin/article_site_json.php", true);
 	xmlhttp.setRequestHeader( "Content-Type", "application/json" );
 	xmlhttp.send(json_data);
 }); 

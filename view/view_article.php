@@ -29,7 +29,7 @@
 				<?php $photo = callPhoto($article['id']);?>
 
 				<img src="<?= $photo['path_photo'] ?>">
-				<p><?= $article['article'] ?></p>
+				<p style="margin: 2em;"><?= $article['article'] ?></p>
 			</div>	
 			<div class="col-md-1"></div>
 		</div>	

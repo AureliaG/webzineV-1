@@ -1,5 +1,5 @@
 <?php
-require 'connection_bdd/connection_bdd.php';
+require '../connection_bdd/connection_bdd.php';
 
 require 'model/model_insert_article_admin.php';
 addArticle();

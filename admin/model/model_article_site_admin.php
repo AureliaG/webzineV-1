@@ -6,7 +6,7 @@
 	$articles->execute();
 	return $articles;	
 }
-
+ 
 //récupère les photo par article sur la base de données
 //$id sera remplacé par $article['id'] dans la view
 function callPhoto($id) {

@@ -1,0 +1,4 @@
+AuthName "Halte là! Cet espace est reservé à l'administratrice"
+AuthType Basic
+AuthUserFile "/var/www/html/webzine_de_lamour/admin/.htpasswd"
+Require valid-user

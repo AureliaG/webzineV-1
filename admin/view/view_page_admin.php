@@ -10,8 +10,8 @@
 	<div class="row">
 		<div class="col-md-4"></div>
 		<div class="col-md-4">
-			<h1 id="title">Salut toi</h1>
-			<a href="./index.php" role="button" class="btn btn-outline-secondary" style="display: flex; justify-content: center;">Revenir sur le site</a>
+			<h1 align="center" id="title">Salut toi</h1>
+			<a href="../index.php" role="button" class="btn btn-outline-secondary" style="display: flex; justify-content: center;">Revenir sur le site</a>
 			<!--message de confimation-->
 		    <?php
 		      if(isset($_GET['message'])){
@@ -24,12 +24,12 @@
 	</header>
 	<body>
 	<div align="center">
-		<img src="./pictures/site/lune_admin.png" class="rounded  img-thumbnail figure-img img-fluid" style="width: 180px;" >
+		<img src="../pictures/site/lune_admin.png" class="rounded  img-thumbnail figure-img img-fluid" style="width: 180px;" >
 		<ul style="list-style-type: none;">
 			<li><a href="insert_article.php">Envoyer un article dans la base de donné</a></li>
 			<li><a href="article_site_admin.php">Gestion d'articles</a></li>
+			<li><a href="gestion_membre.php">Gestion des membres</a></li>
 			<li><a href="">Gestion du forum</a></li>
-			<li><a href="">Gestion des membres</a></li>
 		</ul>
 	</div>	 	
 	</body>

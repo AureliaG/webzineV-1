@@ -51,6 +51,7 @@ function addMember() {
 
                     $formMessage = "<h6 align =\"center\" style=\"color: green\">Bien enregistré! Tu peux maintenant écrire des articles et accéder au forum!</h6>";
 
+
                   } else {
                     $formMessage = "Déso, ce pseudo est déjà pris!";
                   }

@@ -7,17 +7,17 @@
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/dragula/3.7.2/dragula.css">
 	</head>
 
+	<body>
 	<header>
 	    <h1 align="center">Choix des articles intégrés</h1><br>
 	    <div style="display:flex; justify-content:center">
 	      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">retouner sur la page administrateur</a>
 	    </div>
 	    <div style="display:flex; justify-content:center; margin:10px;">
-	      <a href="./index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+	      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
 	    </div>
     </header>
-	
-	<body>
+
 	<div align="center">
 		<h2>Choix des articles sur la page d'accueil</h2>
 		<h4>Les 4 premiers articles seront les "main_articles"</h3>
@@ -34,16 +34,16 @@
 	 		while($article = $articles->fetch()) {
 	 		?>
 	 		<li class="m-4 border">
-	 			<h3 id="<?= $article['id'] ?>" >
+	 			<h3 class="get_id" id="<?= $article['id'] ?>" >
 	 			<?= $article['titre'] ?></h3>
 	 			<?php 
 	 			$photo = callPhoto($article['id']);
 	 			?>
-	 			<img src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
+	 			<img src="../<?= $photo['path_photo'] ?>" style="width: 20em;" >
 	 		</li>
-			<?php } ?>
+			<?php } ?> 
 		</ul>
-		<button id="generer_dom">clic clic!</button>
+		<button id="generer_dom" name="button">clic clic!</button>
 	</div>
 	<div class="col-md-3"></div>
 	</div>
@@ -59,7 +59,7 @@
 	<script>let news_count = <?php echo $news_count; ?>;</script>
 	
 	<!--drag-n-drop list-->
-	<script src="js/main.js"></script>
+	<script src="../js/main.js"></script>
 
 	</body>
 </html>
