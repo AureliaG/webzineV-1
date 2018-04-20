@@ -1,7 +1,7 @@
 <?php
 require '../connection_bdd/connection_bdd.php';
  
-require 'model/model_article_site_admin.php';
+require 'model/model.php';
 
 $articles = callArticle();
 

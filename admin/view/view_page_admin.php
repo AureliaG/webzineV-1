@@ -17,7 +17,7 @@
 		      if(isset($_GET['message'])){
 		       echo $_GET['message']; 
 		      }
-		    ?>
+		    ?> 
 		</div>    
 		<div class="col-md-4"></div> 
 	</div>   <!--fin row-->
@@ -27,9 +27,10 @@
 		<img src="../pictures/site/lune_admin.png" class="rounded  img-thumbnail figure-img img-fluid" style="width: 180px;" >
 		<ul style="list-style-type: none;">
 			<li><a href="insert_article.php">Envoyer un article dans la base de donné</a></li>
-			<li><a href="article_site_admin.php">Gestion d'articles</a></li>
+			<li><a href="article_site_admin.php">Gestion de l'ordre des articles sur la page d'accueil</a></li>
+			<li><a href="gestion_articles.php">Gestion des articles</a></li>
 			<li><a href="gestion_membre.php">Gestion des membres</a></li>
-			<li><a href="">Gestion du forum</a></li>
+			<!--<li><a href="">Gestion du forum</a></li> --> 
 		</ul>
 	</div>	 	
 	</body>

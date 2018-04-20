@@ -28,7 +28,7 @@
 
 				<?php $photo = callPhoto($article['id']);?>
 
-				<img src="<?= $photo['path_photo'] ?>">
+				<img class="img-fluid" src="<?= $photo['path_photo'] ?>">
 				<p style="margin: 2em;"><?= $article['article'] ?></p>
 			</div>	
 			<div class="col-md-1"></div>

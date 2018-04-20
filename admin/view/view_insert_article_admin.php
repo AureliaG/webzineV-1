@@ -17,10 +17,10 @@
   <header>
     <h3 align="center">Ajout d'articles dans la base de donnée</h3><br>
     <div style="display:flex; justify-content:center">
-      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">retouner sur la page administrateur</a>
+      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">Page administrateur</a>
     </div>
-    <div style="display:flex; justify-content:center">
-      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+    <div style="display:flex; justify-content:center; margin:10px;">
+      <a href="../index.php" role="button" class="btn btn-outline-secondary">Retourner sur le site</a>
     </div>
   </header>
     <!--Formulaire articles-->

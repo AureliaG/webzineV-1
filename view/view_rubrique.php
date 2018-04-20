@@ -21,12 +21,12 @@
  		<div class="card col-4"
 			style="margin: 2em; padding: 1em;">
 		    <li id="<?= $article['id'] ?>">
+		    <?php $photo = callPhoto($article['id']);?>
 				<a class="lien_main_article" href="article.php?id=<?= $article['id'] ?>">
 					<p class="font_Kreon"><?= $article['auteur'] ?></p>
 					<p class="font_Kreon"
-							style="margin-bottom: 0.5em; font-weight: bold;"><?= $article['titre'] ?></p>
-					<?php $photo = callPhoto($article['id']);?>
-		 			<img src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
+							style="margin-bottom: 0.5em; font-weight: bold;"><?= $article['titre'] ?></p> 
+		 			<img class="img-fluid" src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
 					<div class="card-body">
 						<p class= "font_Kreon"><?= $article['chapo'] ?></p>
 					</div>

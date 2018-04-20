@@ -1,9 +1,9 @@
-#background {
+#background { 
 	background-color:#DAEEFF;
 } 
 .font_Kreon{
 	font-family: 'Kreon', serif;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	color: #756d6d;
 }
 
@@ -12,7 +12,11 @@
 /*titre webzine*/
 .title{
 	font-family: 'Amatic SC', cursive;
-	font-size: 4rem ;
+	font-size: 5rem ;
+}
+.sous_titre{
+	font-family: 'Amatic SC', cursive;
+	font-size: 3rem ;
 }
 #title_wzine {
 	display: flex;
@@ -72,23 +76,15 @@
 }
 
 /*CSS marge_g*/
+.description_marge {
+	font-size:2em;
+	margin: 1.5em !important;
+}
 #wrap_marge_g{
 	background-color: #F6F700;
 	text-align: center;
 }
-#list_autors {
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-}	
-.autor {
-	border: 1px solid black;
-	border-radius:5px;
-	width: 80px;
-	height: 80px;
-	margin: 7px;
-	font-size: 12px;
-}
+
 .user_m {
 	display: flex;
 	justify-content: center;

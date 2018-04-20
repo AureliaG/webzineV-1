@@ -11,10 +11,10 @@
 	<header>
 	    <h1 align="center">Choix des articles intégrés</h1><br>
 	    <div style="display:flex; justify-content:center">
-	      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">retouner sur la page administrateur</a>
+	      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">Page administrateur</a>
 	    </div>
 	    <div style="display:flex; justify-content:center; margin:10px;">
-	      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+	      <a href="../index.php" role="button" class="btn btn-outline-secondary">Retourner sur le site</a>
 	    </div>
     </header>
 
