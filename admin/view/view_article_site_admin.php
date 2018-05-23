@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>  
 <html>
 	<head>
 		<title>Espace membre </title>
@@ -11,17 +11,16 @@
 	<header>
 	    <h1 align="center">Choix des articles intégrés</h1><br>
 	    <div style="display:flex; justify-content:center">
-	      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">retouner sur la page administrateur</a>
+	      <a href="page_admin.php" role="button" class="btn btn-outline-secondary">Page administrateur</a>
 	    </div>
 	    <div style="display:flex; justify-content:center; margin:10px;">
-	      <a href="../index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
+	      <a href="../index.php" role="button" class="btn btn-outline-secondary">Retourner sur le site</a>
 	    </div>
     </header>
 
 	<div align="center">
 		<h2>Choix des articles sur la page d'accueil</h2>
-		<h4>Les 4 premiers articles seront les "main_articles"</h3>
-		<h4>Les articles de 5 à 12 seront les "articles_medium"</h3>
+		<h4>Les 8 premiers articles seront dans "patate chaude"</h3>
 	</div>
 	<hr>
 
@@ -30,10 +29,12 @@
 	<div class="col-md-3"></div>
 	<div class="col-md-6">
 		<ul align="center" id="drag-elements" style="list-style-type: none;">	
-			<?php
+			<?php 
+			$i= 1;
 	 		while($article = $articles->fetch()) {
 	 		?>
 	 		<li class="m-4 border">
+	 		<p><?php echo $i; ?></p>
 	 			<h3 class="get_id" id="<?= $article['id'] ?>" >
 	 			<?= $article['titre'] ?></h3>
 	 			<?php 
@@ -41,7 +42,7 @@
 	 			?>
 	 			<img src="../<?= $photo['path_photo'] ?>" style="width: 20em;" >
 	 		</li>
-			<?php } ?> 
+			<?php $i++; } ?> 
 		</ul>
 		<button id="generer_dom" name="button">clic clic!</button>
 	</div>
@@ -59,7 +60,7 @@
 	<script>let news_count = <?php echo $news_count; ?>;</script>
 	
 	<!--drag-n-drop list-->
-	<script src="../js/main.js"></script>
+	<script src="js/main.js"></script>
 
 	</body>
 </html>

@@ -14,16 +14,14 @@
 
   <body>
   <section class="add-form container-fluid row"> 
-	  <div class="col-md-4"></div>
-	  <div class="col-md-4">
+	  <div class="col-lg-4 col-sm-2"></div>
+	  <div class="col-lg-4 col-sm-10">
 	  	 <ul style="list-style-type: none;">
 		  	<li><a href="espace_membre.php">clic ici pour retourner dans l'espace membre</a></li>
 		  	<li><a href="index.php">clic là pour revenir sur le site</a></li>
 		  </ul>
 	  </div>
-	  <div class="col-md-4"></div>
+	  <div class="col-lg-4 col-sm-2"></div>
   </section>
   </body>
 </html>  
-
-

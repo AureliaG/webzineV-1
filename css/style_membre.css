@@ -1,14 +1,15 @@
+/*espace_membre*/ 
 #background{
 	background-color:#e3defc;
 }
-#title {
+#title { 
 	display: flex;
     justify-content: center;
 }
 
 #background_owl {
 	height: 85vh;
-	margin-top: 80px;
+	margin-top: 4em;
 	
 	background-image: url("http://localhost/webzine_de_lamour/pictures/site/tree_owl.jpg");
 	background-repeat:no-repeat;
@@ -30,6 +31,18 @@
 	text-decoration: none;
 	display: flex;
 	align-items:flex-end;
-	margin-left: -45px;
+	margin-left: -6em;
 
 }
+
+/*formulaire inscription et connection*/
+#placement_bouton{
+	display:flex; 
+	justify-content:center;
+}
+
+#placement_bouton_perdu{
+	margin: 10px;
+}
+
+

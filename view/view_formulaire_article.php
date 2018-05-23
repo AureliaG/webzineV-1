@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  
+<html> 
   <head>
     <title>Webzine</title>
     <meta charset="utf-8" />
@@ -8,8 +8,9 @@
   </head>
   <body>
 	<section class="add-form container-fluid">
+	<div class="row">
 	  	<div class="col-md-4"></div>
-	  	<div class="col-md-4">
+	  	<div class="col-lg-4 col-sm-12">
 	  		<form class="form-zone" method="POST" action="https://formspree.io/
 	garnier.aurelia.emeline@gmail.com">
 		  	<div class="form-group">
@@ -37,6 +38,7 @@
 	  	</div>
 		
 		<div class="col-md-4"></div>
+		</div>
 	</section>	
 
 </body>
