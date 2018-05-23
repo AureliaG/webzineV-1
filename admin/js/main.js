@@ -1,4 +1,4 @@
-function $(id) {
+function $(id) { 
   return document.getElementById(id);
 }
 
@@ -20,14 +20,14 @@ jQuery("button").click(function(){
 	let json_data = JSON.stringify(id_articles);
 
 	//envoie id_articles sur article_site_admin.php 
-	xmlhttp = new XMLHttpRequest;
+	var xmlhttp = new XMLHttpRequest;
 	xmlhttp.onreadystatechange = function() {
 	    if (this.readyState == 4 && this.status == 200) {
 	       console.log(this.responseText);
 	    }
 	};
+	console.log("hello");
 	xmlhttp.open( "POST", "http://localhost/webzine_de_lamour/admin/article_site_json.php", true);
 	xmlhttp.setRequestHeader( "Content-Type", "application/json" );
 	xmlhttp.send(json_data);
 }); 
- 

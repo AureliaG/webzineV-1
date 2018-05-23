@@ -1,7 +1,7 @@
-<div class="col-md-8" >
+<div class="col-lg-8 col-sm-12" >  
 		<div class="row top">
-			<a href="index.php">
-				<h1 class="title" id="title_wzine">TÊTE DE M(O)ULE </h1>
+			<a href="index.php" id="title_wzine"> 
+				<h1 class="title">TÊTE DE M(O)UL<span id="e_title_wzine">E</span></h1>
 			</a>	
 			<div id="user">
 				<a class="user font_Kreon" href="./inscription.php">inscription</a> <br>
@@ -23,4 +23,4 @@
 			<a id="toi" class="category font_Kreon" href="rubrique.php?rubrique=toi">Et toi?</a>
 		</div>
 		<hr>
-<!-- fin header col-md-8 dans index.php-->	
+<!-- fin header col-lg-8 col-sm-12 dans index.php-->	

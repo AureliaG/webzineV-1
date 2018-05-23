@@ -21,7 +21,7 @@
 		?>
 		<div class="row"> 
 			<div class="col-md-1"></div>
-			<div class="col-md-7 article" style="background-color: white">
+			<div class="col-md-7 article" id="background-color_article">
 				<h1 class="title"><?= $article['titre'] ?></h1>
 				<h2 class="title_article font_Kreon"><?= $article['chapo'] ?></h2>
 				<p><?= $article['auteur'] ?></p>
@@ -29,7 +29,7 @@
 				<?php $photo = callPhoto($article['id']);?>
 
 				<img class="img-fluid" src="<?= $photo['path_photo'] ?>">
-				<p style="margin: 2em;"><?= $article['article'] ?></p>
+				<p id="placement_article"><?= $article['article'] ?></p>
 			</div>	
 			<div class="col-md-1"></div>
 		</div>	

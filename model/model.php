@@ -8,7 +8,7 @@
 	return $articles; 
 }
 
-//recupère un article en fonction de son id
+//reccupère un article en fonction de son id
  function get_article($id){ 
 	$sql="SELECT * FROM articles WHERE id = ?";
 	$article = connectionDb($sql);
@@ -17,7 +17,7 @@
 	return $coco; 
 }
 
-//recupère les articles de la même rubrique
+//reccupère les articles de la même rubrique
  function get_articles_rubrique($rubrique){
 	$sql="SELECT * FROM articles WHERE rubrique = ?";
 	$articles = connectionDb($sql);
@@ -26,7 +26,7 @@
 	return $coco;
 }
 
-//recupère les articles selectionné pour patate chaude
+//reccupère les articles selectionné pour patate chaude
 function order_article(){
 	$sql="SELECT * FROM articles JOIN articles_page_daccueil 
 	ON articles.id = articles_page_daccueil.id_article ORDER BY articles_page_daccueil.id";
@@ -36,7 +36,7 @@ function order_article(){
 }
 
 
-//récupère les photo par article sur la base de données
+//réccupère les photo par article sur la base de données
 //$id sera remplacé par $article['id'] dans la view
 function callPhoto($id) {
 	$sql = "SELECT * FROM photo_articles WHERE articles_id = ?";

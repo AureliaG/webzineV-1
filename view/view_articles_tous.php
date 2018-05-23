@@ -23,21 +23,19 @@
 		require 'header.php';
 		?>
 		
-		<ul class="container" style="list-style: none;">
+		<ul class="container" id="container">
 			<div class="row ">	
 			<?php
 	 		foreach ($articles as $article) {
 	 		?>
 	 		
-	 		<div class="card col-4"
-				style="margin: 2em; padding: 1em;">
+	 		<div class="card col-4" id="card" >
 			    <li id="<?= $article['id'] ?>">
 			    <?php $photo = callPhoto($article['id']);?>
 					<a class="lien_main_article" href="article.php?id=<?= $article['id'] ?>">
 						<p class="font_Kreon"><?= $article['auteur'] ?></p>
-						<p class="font_Kreon"
-								style="margin-bottom: 0.5em; font-weight: bold;"><?= $article['titre'] ?></p> 
-			 			<img class="img-fluid" src="<?= $photo['path_photo'] ?>" style="width: 20em;" >
+						<p class="font_Kreon" id="card_titre-article"><?= $article['titre'] ?></p> 
+			 			<img class="img-fluid" id="card_image-article" src="<?= $photo['path_photo'] ?>">
 						<div class="card-body">
 							<p class= "font_Kreon"><?= $article['chapo'] ?></p>
 						</div>

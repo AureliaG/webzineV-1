@@ -5,21 +5,22 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Kreon" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Kreon" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_membre.css">    
   </head>
   <body>
     <!--Titre-->
     <h3 align="center">Salut! Inscris toi pour participer à la vie du site</h3><br>
-    <div style="display:flex; justify-content:center">
-      <p style="margin: 10px">Oups, tu t'es perdu.e?</p>
+    <div id="placement_bouton">
+      <p id="placement_bouton_perdu">Oups, tu t'es perdu.e?</p>
       <a href="index.php" role="button" class="btn btn-outline-secondary">retourner sur le site</a>
     </div>
 
   <!--Formulaire inscription-->
     <section class="add-form container-fluid row">
-      <div class="col-md-4"></div>
+      <div class="col-lg-4 col-sm-2"></div>
 
-      <form class="form-zone col-md-4" action="" method="POST">
+      <form class="form-zone col-lg-4 col-sm-8" action="" method="POST">
 
         <div class="form-group">
           <label for="pseudo">Pseudo</label>
@@ -52,7 +53,7 @@
         </div>
       </form>
 
-      <div class="col-md-4"></div>
+      <div class="col-lg-4 col-sm-2"></div>
     </section>
 
   <!--Message d'erreur en cas de mauvaise entrée-->
